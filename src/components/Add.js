@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import store, { ADD_TO_LIST } from '../store'
 
-export default class AddToList extends Component {
+export default class Add extends Component {
   constructor() {
     super()
     this.state = {

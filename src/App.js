@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import List from './components/List'
-import AddToList from './components/AddToList'
+import Add from './components/Add'
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <h1>Jonathan's Todo</h1>
       </header>
       <List />
-      <AddToList />
+      <Add />
     </div>
   );
 }

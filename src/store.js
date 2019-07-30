@@ -2,11 +2,10 @@ import { createStore } from 'redux'
 
 // INITIAL STATE
 const initialState = {
-  todo: ['Practice the piano', 'Figure out the meaning of life'],
-  name: ''
+  todo: ['Practice the piano', 'Figure out the meaning of life']
 }
 
-// CONSTANTS
+// ACTION CONSTANTS
 export const ADD_TO_LIST = 'ADD_TO_LIST'
 export const REMOVE_FROM_LIST = 'REMOVE_FROM_LIST'
 
